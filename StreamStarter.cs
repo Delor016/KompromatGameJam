@@ -36,9 +36,7 @@ public class StreamStarter : MonoBehaviour
     // Вызывается при нажатии на кнопку запуска стрима
     public void OnStartStreamButtonClicked()
     {
-        // Здесь вы можете добавить логику для запуска стрима с указанным названием
         string streamName = streamNameInput.text;
-        // Например, можно использовать Debug.Log для вывода названия стрима в консоль
         Debug.Log("Запуск стрима с названием: " + streamName);
 
         // Выключаем GameObject
